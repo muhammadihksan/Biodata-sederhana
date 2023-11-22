@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+    .navigasi{
+        background-color: #3b4997;
+        width: 100%;
+        height: 70px;
+        color: white;
+        position: inherit;
+    }
+
+    .logo{
+        float: left;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+    }
+
+    .menu{
+        margin-left:800px ;
+        margin-top: 27px;
+    }
+
+    .menu ul li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 50px;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: rgb(110, 237, 178);
+    }
+
+    .menu ul li a:hover{
+        color: lightskyblue;
+        font-style: italic;
+
+    }
+
+    .banner{
+        background-color: rgb(8, 24, 45);
+        height: 600px;
+        text-align: center;
+        color: white;
+    }
+    .banner img{
+border-radius: 100px;
+height: 250px;
+border: 5px solid white;
+margin-top: 100px;
+    }
+    .banner h1{
+margin-top: 10px;
+margin-bottom: 10px;
+    }
+    .banner button{
+margin-top: 60px;
+padding: 10px;
+width: 400px;
+border-radius: 50px;
+border: none;
+    }
+    .banner button:hover{
+        background-color: #3b5999;
+        border:1px solid white;
+        color: white;
+    }
+ h1 span:before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: white;
+    font-family: 70px;
+ }
+ 
+ @keyframes gerak{
+    0%{
+        content: 'selamat datang';
+    }
+    50%{
+        content: 'saya muhammad ihksan hatta';
+    }
+    100%{
+        content: 'terimah kasih udah melihat ';
+    }
+ }
+ .box-pendidikan{
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 30px;
+    align-content: center ;
+ }
+
+ .box-kiri, .box-Tengah, .box-Kanan{
+width: 300px;
+height: 320;
+background-color: #f0f0f0;
+text-align: center;
+padding: 30px 30px;
+margin: 70px 20px 55px; 
+border-radius: 20px;
+float: left;
+ }
+
+ .box-kiri:hover, .box-Tengah:hover, .box-Kanan:hover{
+ background-color: #3b5999;
+ color: white
+ }
+
+ .box-Pendidikan h3, p{
+margin-top: 10 px;
+margin-bottom: 13px;
+padding: 0px 20 px;
+ }
+
+ .box-Pengalaman{
+    width: 20px;
+    color: #4d4d4d;
+    margin: 0px auto;
+    margin-top: 560px;
+ }
